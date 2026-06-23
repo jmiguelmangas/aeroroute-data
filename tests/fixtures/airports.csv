@@ -1,0 +1,4 @@
+id,ident,type,name,latitude_deg,longitude_deg,elevation_ft,iso_country,municipality,iata_code
+1,LEMD,large_airport,Adolfo Suárez Madrid-Barajas Airport,40.4722,-3.5608,2000,ES,Madrid,MAD
+2,KJFK,large_airport,John F Kennedy International Airport,40.6413,-73.7781,13,US,New York,JFK
+3,BAD,small_airport,Invalid Airport,91,0,,ZZ,,
