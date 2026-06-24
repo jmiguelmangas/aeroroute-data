@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 name = "aeroroute-data"
 version = "0.1.0"
 requires-python = ">=3.12"
+
+[project.scripts]
+aeroroute-data = "aeroroute_data.cli:main"
 [dependency-groups]
 dev = ["pytest>=8.0", "ruff>=0.11"]
 [tool.ruff]
