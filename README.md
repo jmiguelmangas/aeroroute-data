@@ -6,7 +6,7 @@ outside Git; source URL, license, checksum, and provenance belong in manifests.
 
 ## MVP airport catalogue
 
-`bundles/mvp-airports-2026.06.27` contains 35 curated international airports
+`bundles/mvp-airports-2026.06.27` contains 37 curated international airports
 derived from the public-domain OurAirports download. Rebuild it from a current
 local source file with:
 
@@ -14,7 +14,7 @@ local source file with:
 uv run aeroroute-data build-mvp-airports \
   --source data/ourairports-airports.csv \
   --output bundles/mvp-airports-2026.06.27 \
-  --version 2026.06.27-mvp.1
+  --version 2026.06.28-mvp.2
 ```
 
 The selection is intentionally small and explicit for the MVP. It broadens

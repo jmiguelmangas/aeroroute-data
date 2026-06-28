@@ -21,6 +21,7 @@ MVP_AIRPORT_IDENTS = (
     "KLAX",
     "KMIA",
     "KORD",
+    "KSFO",
     "LEBL",
     "LEMD",
     "LFPG",
@@ -32,6 +33,7 @@ MVP_AIRPORT_IDENTS = (
     "NZAA",
     "OMDB",
     "OTHH",
+    "RJAA",
     "RJTT",
     "RKSI",
     "SAEZ",
@@ -59,7 +61,9 @@ def write_mvp_airports_csv(source: Path, destination: Path) -> int:
         raise ValueError(f"MVP airport source is missing: {', '.join(missing)}")
     destination.parent.mkdir(parents=True, exist_ok=True)
     with destination.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=reader.fieldnames)
+        writer = csv.DictWriter(
+            handle, fieldnames=reader.fieldnames, lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(selected[ident] for ident in MVP_AIRPORT_IDENTS)
     return len(selected)

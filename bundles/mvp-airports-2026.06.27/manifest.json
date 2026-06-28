@@ -1,9 +1,9 @@
 {
-  "accepted_rows": 35,
-  "bundle_sha256": "d06bdeab8199be4bc1568494df1c0bf0fb4013c1001af56075bf8ab7af964e5a",
+  "accepted_rows": 37,
+  "bundle_sha256": "ac5c0abef0fab736cb9cf0e9d8e293bb674fb39df763a66591829a240e6ac3f8",
   "contract_version": "1.0.0",
   "rejected_rows": 0,
   "source_kind": "public",
-  "source_sha256": "fb81821796730317de763edfbc4ac3fe42f6528a0b2dad32f45ac25dde05c8eb",
-  "version": "2026.06.27-mvp.1"
+  "source_sha256": "e17b78b8a4d54d5cfc05254a25383c14ff0ce49c2cef9031d7d974dd52b92c45",
+  "version": "2026.06.28-mvp.2"
 }
