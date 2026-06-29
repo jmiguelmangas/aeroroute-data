@@ -6,12 +6,16 @@ import csv
 from pathlib import Path
 
 MVP_AIRPORT_IDENTS = (
+    "BIKF",
+    "CYQX",
+    "CYYT",
     "CYYZ",
     "CYVR",
     "EDDF",
     "EGLL",
     "EHAM",
     "EIDW",
+    "EINN",
     "EKCH",
     "ENGM",
     "ESSA",
@@ -29,6 +33,7 @@ MVP_AIRPORT_IDENTS = (
     "LIRF",
     "LOWW",
     "LPPT",
+    "LPLA",
     "LSZH",
     "NZAA",
     "OMDB",
